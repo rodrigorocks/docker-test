@@ -7,4 +7,4 @@ docker images
 
 #run the app
 docker run -dit -p 3333:7878 <container-name>
-docker run -dit -p 7878:7878 <container-name>
+docker run -ditp 7878:7878 <container-name>
