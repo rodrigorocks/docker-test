@@ -6,5 +6,5 @@ docker build --tag docker-test .
 docker images
 
 #run the app
-docker run -dit -p 3333:3333 <container-name>
-docker run -dit -p 3333:3333 <container-name>
+docker run -dit -p 3333:7878 <container-name>
+docker run -dit -p 7878:7878 <container-name>
